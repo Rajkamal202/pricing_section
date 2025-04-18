@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuVault Pro | Premium Document Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    
+</head>
+<body>
+    <div class="noise-overlay"></div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Document Management <span class="gradient-text">Company</span></h1>
+                <p>Choose the perfect plan for your business and transform how you manage documents</p>
+                <div class="billing-toggle">
+                    <span>Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="active">Yearly <span class="save-badge">Save 20%</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-card-inner">
+                        <div class="pricing-header">
+                            <div class="plan-name">STARTER</div>
+                            <div class="price">
+                                <span class="currency">Rs.</span>
+                                <span class="amount">599</span>
+                                <span class="period">/year</span>
+                            </div>
+                            <p class="description">Ideal for basic document access and search.</p>
+                        </div>
+                        <div class="pricing-body">
+                            <ul class="features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Secure customer/vendor document access</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Securely share documents with your customers and vendors</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Advanced document search</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Search documents by name, type, and content</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <button class="btn btn-outline-primary btn-block" onclick="buyPlan(pro_01js3tehr9m94tsa0qhbw6xsa5)">Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card popular" data-aos="fade-up">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="pricing-card-inner">
+                        <div class="pricing-header">
+                            <div class="plan-name">PRO</div>
+                            <div class="price">
+                                <span class="currency">Rs.</span>
+                                <span class="amount">799</span>
+                                <span class="period">/year</span>
+                            </div>
+                            <p class="description">Advanced portal with bulk document access and user management.</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="includes">Includes everything in <span class="highlight">Starter +</span></div>
+                            <ul class="features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Upload documents in bulk</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Upload multiple documents at once</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Create multiple portal users</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Add multiple users to your portal</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Upload logo and company name</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Customize your portal with your brand</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Hide document view for users</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Control document visibility for different users</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Search within document text</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Find content inside your documents</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Use advanced search operators</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Use AND, OR, NOT operators for precise searches</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/pro_yearly" class="btn btn-primary btn-block">Subscribe Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card-inner">
+                        <div class="pricing-header">
+                            <div class="plan-name">ENTERPRISE</div>
+                            <div class="price">
+                                <span class="currency">Rs.</span>
+                                <span class="amount">999</span>
+                                <span class="period">/year</span>
+                            </div>
+                            <p class="description">Comprehensive solution with full control and branding.</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="includes">Includes everything in <span class="highlight">Pro +</span></div>
+                            <ul class="features">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Custom portal domain</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Use your own domain for your portal</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Admin portal access for complete control</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Full administrative control over your portal</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Self-registration for users</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Allow users to register themselves</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Portal Authentication</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Secure login for your portal</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Show portal inside your website (iframe)</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Embed your portal in your website</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Audit trail for file access</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Track who accessed which documents and when</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>Multiple administrators</span>
+                                    <div class="tooltip">
+                                        <i class="fas fa-info-circle"></i>
+                                        <div class="tooltip-content">
+                                            <p>Add multiple admin users with different permissions</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/enterprise_yearly" class="btn btn-outline-primary btn-block">Subscribe Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-comparison">
+        <div class="container">
+            <div class="section-header">
+                <h2>Compare All Features</h2>
+                <p>See which plan is right for your business</p>
+            </div>
+            <div class="table-container">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>
+                                <div class="plan-column">
+                                    <span class="plan-name">Starter</span>
+                                    <span class="plan-price">Rs.599</span>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="plan-column popular">
+                                    <span class="popular-tag">Most Popular</span>
+                                    <span class="plan-name">Pro</span>
+                                    <span class="plan-price">Rs.799</span>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="plan-column">
+                                    <span class="plan-name">Enterprise</span>
+                                    <span class="plan-price">Rs.999</span>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Secure customer/vendor document access</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Advanced document search</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Upload logo and company name</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Hide document view for users</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Search within document text</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Use advanced search operators</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Upload documents in bulk</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Create multiple portal users</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Self-registration for users</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Portal Authentication</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Show portal inside your website (iframe)</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Audit trail for file access</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Multiple administrators</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Custom portal domain</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Admin portal access for complete control</td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-minus"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+<script>
+  Paddle.Setup({ vendor:  25446 }); // Replace with your actual Vendor ID
+
+  function openCheckout() {
+    Paddle.Checkout.open({
+      product: 'pro_01js3tehr9m94tsa0qhbw6xsa5', // Replace with your actual Product ID
+      email: 'raop4903@gmail.com'   // Optional: prefill user email
+    });
+  }
+</script>
+
+<button onclick="openCheckout()">Pay Now</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
