@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script>
+      // Initialize Paddle in sandbox mode
+      Paddle.Environment.set('sandbox');
+      Paddle.Setup({ vendor: 25446 }); // Your seller ID
+    </script>
     
 </head>
 <body>
@@ -73,7 +78,8 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <button class="btn btn-outline-primary btn-block" onclick="buyPlan(pro_01js3tehr9m94tsa0qhbw6xsa5)">Subscribe Now</button>
+                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/starter_yearly" class="btn btn-outline-primary btn-block">Subscribe Now</a>
+                
                         </div>
                     </div>
                 </div>
@@ -386,22 +392,5 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-<script>
-  Paddle.Setup({ vendor:  25446 }); // Replace with your actual Vendor ID
-
-  function openCheckout() {
-    Paddle.Checkout.open({
-      product: 'pro_01js3tehr9m94tsa0qhbw6xsa5', // Replace with your actual Product ID
-      email: 'raop4903@gmail.com'   // Optional: prefill user email
-    });
-  }
-</script>
-
-<button onclick="openCheckout()">Pay Now</button>
-
-
-
-    <script src="script.js"></script>
 </body>
 </html>
