@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-    <script>
-      // Initialize Paddle in sandbox mode
-      Paddle.Environment.set('sandbox');
-      Paddle.Setup({ vendor: 25446 }); // Your seller ID
-    </script>
-    
+    <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+    <script type="text/javascript">
+        Paddle.Environment.set("sandbox");
+        Paddle.Initialize({ 
+        token: "test_9d3c0f6d70d6429ba05abb74b15" 
+        });
+      </script>
 </head>
 <body>
     <div class="noise-overlay"></div>
@@ -78,7 +78,8 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/starter_yearly" class="btn btn-outline-primary btn-block">Subscribe Now</a>
+                            <a href="#" class="paddle_button" data-theme="light"
+                            data-items='[{"priceId": "pri_01js3tjscp3sqvw4h4ngqb5d6h"}]'>Subscribe Now</a>
                 
                         </div>
                     </div>
@@ -163,7 +164,8 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/pro_yearly" class="btn btn-primary btn-block">Subscribe Now</a>
+                            <a href="#" class="paddle_button" data-theme="light"
+                            data-items='[{"priceId": "pri_01js3ty4vadz3hxn890a9yvax1", "quantity": 1}]'>Subscribe Now</a>
                         </div>
                     </div>
                 </div>
@@ -256,7 +258,8 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="https://billing.zohosecure.in/subscribe/2c03bb2c300a76bffcd80d5844be08b30bcc7bac5fa6d048dbde1ccf1c7a189d/enterprise_yearly" class="btn btn-outline-primary btn-block">Subscribe Now</a>
+                            <a href="#" class="paddle_button" data-theme="light"
+                            data-items='[{"priceId": "pri_01js3v0bh5yfs8k7gt4ya5nmwt"}]'>Subscribe Now</a>
                         </div>
                     </div>
                 </div>
@@ -391,7 +394,9 @@
                 </table>
             </div>
         </div>
-        <script src="script.js"></script>
     </section>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
